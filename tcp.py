@@ -1,7 +1,7 @@
 import socket  # Import the socket module to enable network communication
 
 # Define the target server (Google) and the port number
-# Port 80 is the default port for HTTP
+# Port 80 is the default port for HTTP .
 target_host = "www.google.com"
 target_port = 80
 
@@ -27,6 +27,7 @@ response = client.recv(4096)
 
 # Decode the received bytes into a readable string and print it
 print(response.decode())
+print(".")
 
 # Close the socket connection
 # This releases network resources
