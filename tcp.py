@@ -9,7 +9,7 @@ target_port = 80
 # AF_INET  -> Use IPv4 addressing
 # SOCK_STREAM -> Use TCP (reliable, connection-based protocol)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
+#print(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
 
 # Connect the socket to the target host and port
 # This establishes a TCP connection to www.google.com on port 80
